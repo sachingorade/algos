@@ -62,7 +62,6 @@ class BinarySearchTreeTest {
         assertFalse(bst.contains(27));
     }
 
-    @SafeVarargs
     private <T extends Comparable<T>> BinarySearchTree<T> createNewTree(T... values) {
         return new BinarySearchTree<>(values);
     }
