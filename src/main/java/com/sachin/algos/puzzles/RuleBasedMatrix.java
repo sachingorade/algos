@@ -66,7 +66,6 @@ public class RuleBasedMatrix {
                 }
             }
         }
-        System.out.println(validCombinations);
 
         if (foundValidCombination) {
             return validCombinations;
