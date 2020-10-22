@@ -12,6 +12,7 @@ class CountFactorsTest {
         assertEquals(0, new CountFactors().solution(0));
         assertEquals(0, new CountFactors().solution(-10));
         assertEquals(1, new CountFactors().solution(1));
+        assertEquals(8, new CountFactors().solution(30));
     }
 
 }
